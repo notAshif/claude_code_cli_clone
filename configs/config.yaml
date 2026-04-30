@@ -1,0 +1,13 @@
+provider: ollama
+model: llama3.1:8b
+
+approval:
+  shell: always
+  write_files: always
+
+workspace:
+  max_files: 5000
+  max_file_bytes: 200000
+
+storage:
+  path: .agent/sessions.db
